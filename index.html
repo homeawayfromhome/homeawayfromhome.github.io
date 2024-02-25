@@ -10,6 +10,9 @@
             * {
                 margin: 0;
                 padding: 0;
+                text-decoration: none;
+                list-style: none;
+                box-sizing: border-box;
             }
             .hero {
                 height: 100vh;
@@ -40,13 +43,21 @@
                 font-size: 17px;
                 text-transform: uppercase;
             }
+            .checkbtn {
+                font-size: 30px;
+                color: black;
+                float: right;
+                line-height: 80px;
+                margin-right: 40px;
+                cursor: pointer;
+            }
         </style>
     </head>
     <body>
         <div class="hero">
             <nav>
                 <input type="checkbox" id="check">
-                <label for="check">
+                <label for="check" class="checkbtn">
                     <i class="fas fa-bars"></i>
                 </label>
                 <img src="logo.png" class="logo">
