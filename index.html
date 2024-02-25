@@ -70,8 +70,9 @@
                     height: 100vh;
                     background: #2c3e50;
                     top: 80px;
-                    left: 0px;
+                    left: -100%;
                     text-align: center;
+                    transition: all .5s;
                 }
                 nav ul li {
                     display: block;
@@ -86,6 +87,9 @@
                 #check:checked ~ ul {
                     left: 0;
                 }
+                section {
+                    background-size: cover;
+                    height: calc(100vh - 80px);
             }
         </style>
     </head>
@@ -103,6 +107,7 @@
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
+            <section></section>
         </div>
     </body>
 </html>
