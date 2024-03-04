@@ -9,6 +9,9 @@
             body {
                 background: white;
             }
+            .home {
+                height: 600px;
+            }
             .lander {
                 max-width: 20rem;
                 display: block;
@@ -103,16 +106,18 @@
             }
             @media only screen and (min-width: 1200px) {
                 .lander {
-                    max-width: 10rem;
+                    max-width: 35rem;
                     margin-top: 30px;
                     margin-right: 0;
+                    margin-right: 40px;
                 }
                 h1 {
-                    font-size: 10px;
+                    font-size: 100px;
                     color: #abd4f8;
                     text-align: left;
-                    margin-top: 0;
-                    margin-left: 0;
+                    margin-top: -480px;
+                    max-width: 550px;
+                    margin-left: 30px;
                 }
             }
         </style>
@@ -120,8 +125,10 @@
     <body>
         <img src="HAFH.png" class="logo">
         <hr class="solid">
-        <img src="phoneLogo.png" class="lander">
-        <h1>Home is a<br><em>feeling</em> not<br>a <em>place</em></h1>
+        <div class="home">
+            <img src="phoneLogo.png" class="lander">
+            <h1>Home is a<br><em>feeling</em> not<br>a <em>place</em></h1>
+        </div>
         <img src="newCurve.png" class="curve">
         <div class="partOne">
             <h2 class="story">Our Story</h2>
